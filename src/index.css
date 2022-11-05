@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100%;
+  background-color: #213547;
+  color: whitesmoke;
+  position: relative;
+  font-family: sans-serif;
+}
+
+#root {
+  max-width: 700px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}

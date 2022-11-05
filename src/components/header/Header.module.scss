@@ -1,0 +1,23 @@
+.header {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px white solid;
+  border-radius: 0 0 10px 10px;
+  box-sizing: border-box;
+  background-color: #172a3a;
+  position: fixed;
+  top: 0;
+}
+
+.logoHref {
+  display: block;
+}
+
+.logo {
+  max-height: 50px;
+  max-width: 200px;
+}

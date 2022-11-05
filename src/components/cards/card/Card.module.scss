@@ -1,0 +1,48 @@
+.container {
+  border: 1px solid #265988;
+  border-radius: 10px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #132633;
+  border-radius: 10px 10px 0 0;
+}
+.img {
+  width: 30px;
+  height: 30px;
+  border-radius: 60px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.name {
+  margin: 0;
+}
+.main {
+  width: 100%;
+  height: 100%;
+}
+.post {
+  object-fit: cover;
+  width: 100%;
+  display: block;
+}
+.footer {
+  display: flex;
+  background-color: #132633;
+  border-radius: 0 0 10px 10px;
+  padding: 15px;
+}
+.likes {
+  display: flex;
+  align-items: flex-end;
+}
+.like {
+  width: 30px;
+  height: 30px;
+  &:hover {
+    color: #ff6969;
+  }
+}
